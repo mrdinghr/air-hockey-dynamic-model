@@ -13,3 +13,6 @@ The black part is Neural Network. We use NN to simulate the residual dynamics of
 * 'torch_air_hockey_baseline_no_detach': dynamic model of puck movement
 * 'torch_EKF_wrapper': EKF model 
 * 'torch_gradient': trainging for NN
+The above three files are main part of the grey box model
+
+'linear_collision_params', 'quadratic_linear_function_fit_trajectory', 'torch_params_linear_regression' are main part for calculating parameters for linear collision model.
