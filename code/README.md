@@ -1,4 +1,3 @@
-* 'alldata': trained neural network models
 * 'data': parameters for linear collision model
 * 'data_linear_regression': useful data for calculating parameters of linear collision model using linear regression method
 * 'data_preprocess': code for deal with rosbag data
@@ -12,7 +11,9 @@ The black part is Neural Network. We use NN to simulate the residual dynamics of
 
 * 'torch_air_hockey_baseline_no_detach': dynamic model of puck movement
 * 'torch_EKF_wrapper': EKF model 
-* 'torch_gradient': trainging for NN
+* 'torch_gradient': NN training process
 The above three files are main part of the grey box model
 
 'linear_collision_params', 'quadratic_linear_function_fit_trajectory', 'torch_params_linear_regression' are main part for calculating parameters for linear collision model.
+
+
